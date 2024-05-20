@@ -1,8 +1,10 @@
+# syntax=docker/dockerfile:1.7-labs
+
 FROM node:20 as build
 WORKDIR /app
 COPY package*.json .
 RUN npm ci
-COPY . .
+COPY --exclude=server . .
 RUN npm run build
 
 FROM node:20 as server

@@ -4,5 +4,6 @@ services:
   app:
     build:
       context: .
+      target: server
     ports:
       - '3000:3000'

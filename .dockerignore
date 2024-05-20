@@ -1,8 +1,10 @@
 *
+!/e2e
 !/public
 !/server
 !/src
 !index.html
 !package-lock.json
 !package.json
+!playwright.config.ts
 !tsconfig.json

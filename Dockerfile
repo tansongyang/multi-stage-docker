@@ -4,4 +4,5 @@ COPY package*.json .
 RUN npm ci
 COPY . .
 RUN npm run build
-CMD ["node", "index.cjs"]
+# CMD ["node", "index.cjs"]
+CMD sleep infinity

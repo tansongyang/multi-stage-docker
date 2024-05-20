@@ -1,7 +1,7 @@
 *
 !/public
+!/server
 !/src
-!index.cjs
 !index.html
 !package-lock.json
 !package.json

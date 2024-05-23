@@ -1,4 +1,8 @@
+# Ignore everything by default ...
 *
+
+# ... and explicitly declare what files are accessible to Docker. This makes it
+# less likely for unnecessary files to become part of the build context.
 !/e2e
 !/public
 !/server

@@ -4,6 +4,7 @@ services:
   app:
     build:
       context: .
+      # Only build the stage named 'server' and its dependencies
       target: server
     ports:
       - '3000:3000'
